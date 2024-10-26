@@ -10,7 +10,7 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            This is now Brian's custom store! YOOOO!
+            This is now Brians custom store! YOOOO!
           </Heading>
           <Heading
             level="h2"
