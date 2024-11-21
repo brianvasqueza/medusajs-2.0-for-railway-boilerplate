@@ -21,13 +21,13 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Dress To The Latest Fashion!!!
+            Elevate Every Occasion with Effortless Elegance.
           </Heading>
           <Heading
             level="h2"
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Check out your next attire on our store
+            Master the Art of Dressing Up – Shop Our New Arrivals.
           </Heading>
         </span>
         {/* <a

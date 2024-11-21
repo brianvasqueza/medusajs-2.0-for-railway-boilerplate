@@ -6,9 +6,9 @@ import { getCollectionsWithProducts } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "Mary Moda Exclusiva",
   description:
-    "A performant frontend ecommerce starter template with Next.js 14 and Medusa.",
+    "Redefine your style with our exclusive elegant apparel.",
 }
 
 export default async function Home({
