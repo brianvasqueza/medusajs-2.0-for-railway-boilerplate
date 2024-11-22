@@ -17,7 +17,7 @@ export default async function Footer() {
           <div>
             <LocalizedClientLink
               href="/"
-              className="absolute w-64 h-24 z-0 overflow-hidden"
+              className="absolute w-64 h-24 overflow-hidden"
             >
               <Image
                 src={logo}

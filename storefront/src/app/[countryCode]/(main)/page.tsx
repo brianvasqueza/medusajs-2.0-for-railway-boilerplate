@@ -6,6 +6,7 @@ import { getCollectionsWithProducts } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
+  
   title: "Mary Moda Exclusiva",
   description:
     "Redefine your style with our exclusive elegant apparel.",
