@@ -13,11 +13,11 @@ export default async function Footer() {
   return (
     <footer className="border-t border-ui-border-base w-full">
       <div className="content-container flex flex-col w-full">
-        <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-40">
-          <div>
+        <div className="flex flex-col gap-y-6 xsmall:flex-row items-center justify-between py-40">
+          <div className="relative flex w-64 h-24 ">
             <LocalizedClientLink
               href="/"
-              className="absolute w-64 h-24 overflow-hidden"
+              className="absolute  w-full h-full overflow-hidden"
             >
               <Image
                 src={logo}
