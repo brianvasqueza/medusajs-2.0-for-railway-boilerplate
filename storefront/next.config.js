@@ -10,6 +10,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
+        protocol: "https",
+        hostname: "backend-production-4684.up.railway.app",
+      },
+      {
         protocol: "http",
         hostname: "localhost",
       },
@@ -19,10 +23,6 @@ const nextConfig = {
           "https://",
           ""
         ),
-      },
-      {
-        protocol: "https",
-        hostname: "backend-production-4684.up.railway.app",
       },
       {
         protocol: "https",
