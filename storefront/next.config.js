@@ -13,17 +13,17 @@ const nextConfig = {
         protocol: "https",
         hostname: "backend-production-4684.up.railway.app",
       },
-      // {
-      //   protocol: "http",
-      //   hostname: "localhost",
-      // },
-      // {
-      //   protocol: "https",
-      //   hostname: process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL.replace(
-      //     "https://",
-      //     ""
-      //   ),
-      // },
+      {
+        protocol: "http",
+        hostname: "localhost",
+      },
+      {
+        protocol: "https",
+        hostname: process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL.replace(
+          "https://",
+          ""
+        ),
+      },
       {
         protocol: "https",
         hostname: "medusa-public-images.s3.eu-west-1.amazonaws.com",
